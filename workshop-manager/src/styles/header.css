@@ -1,0 +1,28 @@
+.header-logo {
+  width: 80px;
+  height: 80px;
+  padding: 8px;
+}
+
+.tasks-btn {
+  height: 40px;
+  width: 150px;
+  background-color: #37B3CB;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+header {
+  display: flex;
+  background-color: #C1C1C1;
+  height: 100px;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.tasks-btn:hover, .header-logo:hover {
+  cursor: pointer;
+}
