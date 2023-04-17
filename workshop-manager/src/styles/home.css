@@ -1,0 +1,24 @@
+.home-main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.qrcode {
+  width: 170px;
+}
+
+.qrcode-btn {
+  width: 170px;
+  height: 50px;
+  color: #311234;
+  font-size: 25px;
+  border-radius: 12px;
+  background-image: linear-gradient(to right, #45B5D7, #23D8C8);
+}
+
+.qrcode-btn:hover {
+  cursor: pointer;
+} 
